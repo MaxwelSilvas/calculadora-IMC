@@ -73,7 +73,7 @@ const Imc = () => {
         {imc && (
           <div className="result">
             <h2>Seu IMC: {imc}</h2>
-            <h3 className={className}>Classificação: {classificacao}</h3>
+            <h3 className={className}>{classificacao}</h3>
           </div>
         )}
       </div>
